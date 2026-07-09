@@ -61,18 +61,6 @@ It forces the answer to include:
 
 ---
 
-## Visual System
-
-The README graphics were rebuilt as deterministic PNG assets. They use one theme across the repository:
-
-- dark technical background for contrast
-- cyan for source and input flow
-- green for verification and validated output
-- amber for decision/gating logic
-- violet for the skill engine and routing layer
-- rose for failure checks, rules, and maintenance gates
-
-The PNGs are generated from `scripts/render_readme_assets.ps1`, so the visual system is reproducible instead of being a one-off image dump.
 
 ---
 
