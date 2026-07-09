@@ -1,6 +1,10 @@
-# DEPLOY STRATEGY ADVISOR
-### Antigravity Principal Cloud Architect Skill
-**Version:** 1.0.0 | **License:** Apache 2.0 | **Status:** Production-Ready
+<div align="center">
+  <img src="assets/deploy_skill_banner.png" alt="Deploy Strategy Advisor Header" width="100%">
+  
+  # DEPLOY STRATEGY ADVISOR
+  ### Antigravity Principal Cloud Architect Skill
+  **Version:** 1.0.0 | **License:** Apache 2.0 | **Status:** Production-Ready
+</div>
 
 ---
 
