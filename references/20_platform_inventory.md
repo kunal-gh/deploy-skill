@@ -24,19 +24,19 @@ Only after candidate generation should hard filters remove options.
 
 | Bucket | Platforms to consider |
 |---|---|
-| Frontend/JAMstack | Vercel, Netlify, Cloudflare Pages, Firebase Hosting, AWS Amplify, Azure Static Web Apps, GitHub Pages, Tiiny Host, Surge, Render Static Sites |
-| Backend/PaaS | Railway, Render, Fly.io, Heroku, Koyeb, Northflank, Zerops, Sliplane, DigitalOcean App Platform, Google Cloud Run, AWS App Runner, Azure Container Apps |
+| Frontend/JAMstack | Vercel, Netlify, Cloudflare Pages, Firebase Hosting, AWS Amplify, Azure Static Web Apps, GitHub Pages, Tiiny Host, Surge, Render Static Sites, YouWare |
+| Backend/PaaS | Railway, Render, Fly.io, Heroku, Koyeb, Northflank, Zerops, Sliplane, DigitalOcean App Platform, Google Cloud Run, AWS App Runner, Azure Container Apps, Cloudways, Kinsta application hosting |
 | BYOC/Kubernetes developer platforms | Northflank BYOC, Qovery, Flightcontrol, Porter, Bunnyshell, humanitec-style IDP stacks, Argo CD/Flux on managed Kubernetes |
-| Self-hosted PaaS | Coolify, Dokploy, CapRover, Dokku, Portainer, Ploi, Laravel Forge, Caddy/Traefik with Docker Compose |
+| Self-hosted PaaS | Coolify, Dokploy, CapRover, Dokku, Juno, Kamal, Portainer, Ploi, Laravel Forge, Caddy/Traefik with Docker Compose |
 | Relational databases | Supabase Postgres, Neon, PlanetScale, Turso/libSQL, CockroachDB, Xata, Aiven, AWS RDS/Aurora, GCP Cloud SQL, Azure PostgreSQL, DigitalOcean Managed DB |
 | NoSQL/document/key-value | MongoDB Atlas, Firestore, DynamoDB, Cosmos DB, Redis Cloud, Upstash Redis, Cloudflare KV, Deno KV |
 | Vector/search | pgvector, Qdrant, Pinecone, Weaviate, Chroma, Meilisearch, Typesense, Elasticsearch/OpenSearch |
-| Object/file storage | Cloudflare R2, AWS S3, Google Cloud Storage, Azure Blob Storage, DigitalOcean Spaces, Backblaze B2, MinIO |
+| Object/file storage | Cloudflare R2, AWS S3, Google Cloud Storage, Azure Blob Storage, DigitalOcean Spaces, Backblaze B2, MinIO, Bunny CDN storage |
 | Realtime/collaboration | Ably, Pusher, Liveblocks, PartyKit, LiveKit, PubNub, Firebase Realtime Database, Supabase Realtime, Socket.IO, NATS, Kafka, Redpanda |
 | Mobile backends | Firebase, Supabase, Appwrite, Nhost, Convex, AWS Amplify, Expo EAS, OneSignal, RevenueCat |
 | AI/GPU/model serving | Modal, RunPod, Replicate, Hugging Face Inference Endpoints, Together AI, Groq, Baseten, BentoCloud, AWS SageMaker, GCP Vertex AI, Azure ML |
-| Data/ETL/jobs | Modal, Cloud Run Jobs, AWS Batch, AWS Lambda, GCP Workflows, Temporal, Inngest, Trigger.dev, Prefect, Dagster, Airflow |
-| Monitoring/observability | Sentry, Better Stack, Grafana Cloud, Datadog, Axiom, SigNoz, Uptime Kuma, UptimeRobot, Checkly, OpenTelemetry |
+| Data/ETL/jobs | Modal, Cloud Run Jobs, AWS Batch, AWS Lambda, GCP Workflows, Temporal, Inngest, Trigger.dev, Prefect, Dagster, Airflow, SST Ion |
+| Monitoring/observability | Sentry, Better Stack, Grafana Cloud, Datadog, Axiom, SigNoz, Uptime Kuma, UptimeRobot, Checkly, OpenTelemetry, Cloudflare Application Security and Performance |
 | Secrets/security | Doppler, Infisical, Vault/OpenBao, SOPS, AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, Trivy, Snyk, Semgrep, Gitleaks, TruffleHog |
 | IoT/edge devices | AWS IoT Core, Azure IoT Hub, ThingsBoard, EMQX, HiveMQ, Balena, Edge Impulse, Cloudflare Pub/Sub/MQTT options where applicable |
 

@@ -7,7 +7,7 @@
 
   [![Status](https://img.shields.io/badge/status-source--backed-16a34a)](#validation)
   [![Version](https://img.shields.io/badge/version-3.1.0-2563eb)](#release-state)
-  [![References](https://img.shields.io/badge/reference%20nodes-24-7c3aed)](#knowledge-base-map)
+  [![References](https://img.shields.io/badge/reference%20nodes-25-7c3aed)](#knowledge-base-map)
   [![Freshness](https://img.shields.io/badge/freshness-audited-0f766e)](#freshness-and-source-verification)
   [![License](https://img.shields.io/badge/license-Apache--2.0-111827)](#license)
 </div>
@@ -84,6 +84,7 @@ The repository follows a hub-and-spoke layout. The hub is compact and procedural
 
 - `freshness_audit.py` checks reference count, research dates, URL presence, and manifest coverage.
 - `verify_sources.py` enumerates or checks source URLs, with `--dry-run` support for restricted environments.
+- `coverage_report.py` checks that products discovered from the original 10 seed sources are visible in the manifest, inventory, evidence register, or completion matrix.
 
 ---
 
@@ -142,13 +143,13 @@ This is the current coverage shape. Exact facts still need live official verific
 
 | Area | Examples covered |
 |---|---|
-| Frontend and JAMstack | Vercel, Netlify, Cloudflare Pages, Firebase Hosting, AWS Amplify, Azure Static Web Apps, GitHub Pages, Tiiny Host |
-| Backend and PaaS | Railway, Render, Fly.io, Heroku, Koyeb, Northflank, Zerops, Sliplane, DigitalOcean App Platform, Google Cloud Run, AWS App Runner, Azure Container Apps |
+| Frontend and JAMstack | Vercel, Netlify, Cloudflare Pages, Firebase Hosting, AWS Amplify, Azure Static Web Apps, GitHub Pages, Tiiny Host, YouWare |
+| Backend and PaaS | Railway, Render, Fly.io, Heroku, Koyeb, Northflank, Zerops, Sliplane, DigitalOcean App Platform, Google Cloud Run, AWS App Runner, Azure Container Apps, Kinsta application hosting, Cloudways |
 | BYOC and Kubernetes platforms | Northflank BYOC, Qovery, Flightcontrol, Porter, Bunnyshell, Argo CD, Flux |
-| Self-hosted PaaS | Coolify, Dokploy, CapRover, Dokku, Portainer, Ploi, Laravel Forge |
+| Self-hosted PaaS | Coolify, Dokploy, CapRover, Dokku, Juno, Kamal, Portainer, Ploi, Laravel Forge |
 | Databases | Supabase, Neon, PlanetScale, Turso, MongoDB Atlas, Firestore, DynamoDB, Cosmos DB, RDS/Aurora, Cloud SQL, Azure PostgreSQL |
 | BaaS | Supabase, Convex, Nhost, Appwrite, PocketBase, Firebase |
-| Edge and serverless | Cloudflare Workers, Deno Deploy, Fastly Compute, Lambda@Edge, Cloud Run |
+| Edge and serverless | Cloudflare Workers, Deno Deploy, Fastly Compute, AWS Lambda, Lambda@Edge, Cloud Run, Bunny CDN |
 | Realtime | Ably, Pusher, Liveblocks, LiveKit, PubNub, PartyKit, NATS, Kafka, Redpanda, native WebSockets |
 | Mobile | Firebase, Supabase, Appwrite, Nhost, Convex, AWS Amplify, Expo EAS, OneSignal, RevenueCat |
 | AI and GPU | Modal, RunPod, Replicate, Hugging Face Inference Endpoints, Together AI, Groq, Baseten, BentoCloud, SageMaker, Vertex AI, Azure ML |
@@ -187,8 +188,10 @@ This is the current coverage shape. Exact facts still need live official verific
 | `references/21_research_and_refresh_workflow.md` | Recommendation-time and update-time source verification protocol |
 | `references/22_iot_edge_deployments.md` | IoT fleet, MQTT, OTA, telemetry, device security |
 | `references/23_verified_evidence_original_prompt.md` | Official-source evidence pass for the original Vercel-alternatives prompt set |
+| `references/24_seed_source_completion_matrix.md` | Completion tracker for the original 10 seed URLs and newly promoted gap items |
 | `scripts/freshness_audit.py` | Offline provenance and freshness audit |
 | `scripts/verify_sources.py` | URL discovery/checking utility for source pages |
+| `scripts/coverage_report.py` | Seed-source product coverage report |
 
 ---
 
@@ -285,6 +288,7 @@ Before a pricing-heavy recommendation, run:
 
 ```bash
 python scripts/freshness_audit.py .
+python scripts/coverage_report.py .
 python scripts/verify_sources.py . --dry-run
 ```
 
@@ -304,14 +308,16 @@ Current validation commands:
 
 ```bash
 python scripts/freshness_audit.py .
+python scripts/coverage_report.py .
 python scripts/verify_sources.py . --dry-run --limit 25
-python -c "import ast, pathlib; [ast.parse(p.read_text(encoding='utf-8')) for p in [pathlib.Path('scripts/freshness_audit.py'), pathlib.Path('scripts/verify_sources.py')]]; print('syntax ok')"
+python -c "import ast, pathlib; [ast.parse(p.read_text(encoding='utf-8')) for p in [pathlib.Path('scripts/freshness_audit.py'), pathlib.Path('scripts/verify_sources.py'), pathlib.Path('scripts/coverage_report.py')]]; print('syntax ok')"
 ```
 
 Expected result:
 
 - freshness audit reports no failures
 - freshness audit reports no warnings
+- coverage report reports no failures
 - source verifier enumerates official and discovery URLs
 - Python scripts parse successfully
 
@@ -341,10 +347,12 @@ Some requirements should immediately remove platforms from contention.
 Current repository state:
 
 - Version: `3.1.0`
-- Reference nodes: `24`
+- Reference nodes: `25`
 - Source URL count: hundreds of official and discovery targets
 - Core original-prompt platform evidence: present
+- Original 10-source completion matrix: present
 - Freshness audit: passing
+- Coverage report: passing
 - Source verifier dry run: passing
 
 Honest limitation: this is not a magical forever-finished database. It is a maintainable, source-backed decision system. It becomes stronger as more platform sections receive fresh official-source evidence blocks.

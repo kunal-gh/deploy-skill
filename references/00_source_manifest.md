@@ -80,6 +80,10 @@ platform reference file after verification.
 | Dokploy | https://docs.dokploy.com | https://github.com/dokploy/dokploy | https://github.com/dokploy/dokploy/releases | 07_self_hosted.md |
 | CapRover | https://caprover.com/docs | https://github.com/caprover/caprover | https://github.com/caprover/caprover/releases | 07_self_hosted.md |
 | Dokku | https://dokku.com/docs | https://github.com/dokku/dokku | https://github.com/dokku/dokku/releases | 07_self_hosted.md |
+| Juno | https://juno.build/docs | https://github.com/junobuild/juno | https://github.com/junobuild/juno/releases | 07_self_hosted.md |
+| Kamal | https://kamal-deploy.org/docs | https://github.com/basecamp/kamal | https://github.com/basecamp/kamal/releases | 07_self_hosted.md |
+| SST | https://sst.dev/docs | https://sst.dev | https://github.com/sst/sst/releases | 06_cloud_providers.md |
+| Liquid Web VPS | https://www.liquidweb.com/help-docs | https://www.liquidweb.com/vps-hosting | https://www.liquidweb.com/blog | 06_cloud_providers.md |
 | Hetzner Cloud | https://docs.hetzner.com/cloud | https://www.hetzner.com/cloud | https://status.hetzner.com | 06_cloud_providers.md |
 | DigitalOcean | https://docs.digitalocean.com | https://www.digitalocean.com/pricing | https://status.digitalocean.com | 06_cloud_providers.md |
 | Oracle Cloud Free Tier | https://docs.oracle.com/en-us/iaas | https://www.oracle.com/cloud/free | https://ocistatus.oraclecloud.com | 06_cloud_providers.md |
@@ -115,6 +119,18 @@ platform reference file after verification.
 | LiveKit | https://docs.livekit.io | https://livekit.io/pricing | https://status.livekit.io | 13_realtime_networking.md |
 | Expo EAS | https://docs.expo.dev/eas | https://expo.dev/pricing | https://expo.dev/changelog | 17_mobile_backends.md |
 | OneSignal | https://documentation.onesignal.com | https://onesignal.com/pricing | https://status.onesignal.com | 17_mobile_backends.md |
+
+### Seed-Source Adjacent Products Requiring Triage
+
+| Platform | Official docs | Pricing | Changelog/status | Reference |
+|---|---|---|---|---|
+| YouWare | https://www.youware.com | https://www.youware.com/pricing | https://www.youware.com/blog | 20_platform_inventory.md |
+| AWS Lambda | https://docs.aws.amazon.com/lambda | https://aws.amazon.com/lambda/pricing | https://aws.amazon.com/about-aws/whats-new | 05_edge_cdn_serverless.md |
+| Jenkins | https://www.jenkins.io/doc | https://www.jenkins.io | https://www.jenkins.io/changelog | 04_cicd_devops.md |
+| Kinsta | https://docs.kinsta.com | https://kinsta.com/pricing | https://status.kinsta.com | 06_cloud_providers.md |
+| Bunny CDN | https://docs.bunny.net | https://bunny.net/pricing | https://status.bunny.net | 05_edge_cdn_serverless.md |
+| Cloudways | https://support.cloudways.com | https://www.cloudways.com/en/pricing.php | https://status.cloudways.com | 06_cloud_providers.md |
+| CircleCI | https://circleci.com/docs | https://circleci.com/pricing | https://status.circleci.com | 04_cicd_devops.md |
 
 ### IoT and Edge Device Deployment
 

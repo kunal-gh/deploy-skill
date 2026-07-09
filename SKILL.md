@@ -84,10 +84,11 @@ Cloud pricing changes quarterly. Free tiers get removed overnight. Platform limi
 
 1. Read `00_source_manifest.md` to find official source targets.
 2. Read `20_platform_inventory.md` to avoid missing viable candidates.
-3. Read `23_verified_evidence_original_prompt.md` when the user's request overlaps the original Vercel-alternatives prompt or any platform named there.
-4. Read `21_research_and_refresh_workflow.md` for the required verification workflow.
-5. For every shortlisted platform, verify official pricing/limits/docs/changelog or state that verification was not possible.
-6. If live official sources contradict the local reference files, use live official sources and note the discrepancy.
+3. Read `24_seed_source_completion_matrix.md` when the user asks whether the original 10-source prompt is complete or whether every discovered product was covered.
+4. Read `23_verified_evidence_original_prompt.md` when the user's request overlaps the original Vercel-alternatives prompt or any platform named there.
+5. Read `21_research_and_refresh_workflow.md` for the required verification workflow.
+6. For every shortlisted platform, verify official pricing/limits/docs/changelog or state that verification was not possible.
+7. If live official sources contradict the local reference files, use live official sources and note the discrepancy.
 
 Use search queries such as:
 
@@ -112,6 +113,7 @@ Based on the project category and constraints, load ONLY the files you need:
 |---|---|
 | Source/provenance lookup | `00_source_manifest.md` |
 | Candidate generation / market coverage | `20_platform_inventory.md` |
+| Original 10-source completion status | `24_seed_source_completion_matrix.md` |
 | Original prompt platform evidence | `23_verified_evidence_original_prompt.md` |
 | Frontend / Static / JAMstack | `01_frontend_platforms.md` |
 | Backend API / Full-stack containers | `02_backend_platforms.md` |
@@ -222,3 +224,4 @@ Apply these rules automatically — if a constraint is hit, the platform is disq
 - **Always acknowledge uncertainty**: If a platform's pricing is not confirmed by live official sources, state `unconfirmed - verify at [url]`.
 - **For skill maintenance**, run `scripts/freshness_audit.py` after adding or changing references. Treat warnings as work items, especially missing URLs or stale verification dates.
 - **For live source maintenance**, run `scripts/verify_sources.py . --output verification/source-check.csv` when network is available. Use `--dry-run` in restricted environments to confirm URL coverage without making requests.
+- **For original prompt completion maintenance**, run `scripts/coverage_report.py .` after adding platforms from seed sources. Treat failures as release blockers.
