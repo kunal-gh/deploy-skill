@@ -5,6 +5,18 @@
 
 ---
 
+## Official Source Targets
+
+| Platform | Docs | Pricing / releases |
+|---|---|---|
+| Supabase | https://supabase.com/docs | https://supabase.com/pricing |
+| Convex | https://docs.convex.dev | https://www.convex.dev/pricing |
+| Nhost | https://docs.nhost.io | https://nhost.io/pricing |
+| Appwrite | https://appwrite.io/docs | https://appwrite.io/pricing |
+| PocketBase | https://pocketbase.io/docs | https://github.com/pocketbase/pocketbase/releases |
+
+---
+
 ## 1. Supabase
 
 **Category:** SQL-based open-source Firebase alternative  

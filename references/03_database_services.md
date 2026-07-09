@@ -5,6 +5,26 @@
 
 ---
 
+## Official Source Targets
+
+| Platform | Docs | Pricing / limits |
+|---|---|---|
+| Supabase | https://supabase.com/docs | https://supabase.com/pricing |
+| Neon | https://neon.com/docs | https://neon.com/pricing |
+| PlanetScale | https://planetscale.com/docs | https://planetscale.com/pricing |
+| CockroachDB | https://www.cockroachlabs.com/docs | https://www.cockroachlabs.com/pricing |
+| Xata | https://xata.io/docs | https://xata.io/pricing |
+| Turso | https://docs.turso.tech | https://turso.tech/pricing |
+| MongoDB Atlas | https://www.mongodb.com/docs/atlas | https://www.mongodb.com/pricing |
+| Firestore | https://firebase.google.com/docs/firestore | https://firebase.google.com/pricing |
+| DynamoDB | https://docs.aws.amazon.com/dynamodb | https://aws.amazon.com/dynamodb/pricing |
+| Upstash | https://upstash.com/docs | https://upstash.com/pricing |
+| Pinecone | https://docs.pinecone.io | https://www.pinecone.io/pricing |
+| Qdrant | https://qdrant.tech/documentation | https://qdrant.tech/pricing |
+| Weaviate | https://weaviate.io/developers/weaviate | https://weaviate.io/pricing |
+
+---
+
 ## Database Types Quick Reference
 
 | Type | Use When | Examples |

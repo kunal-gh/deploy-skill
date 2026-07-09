@@ -5,6 +5,26 @@
 
 ---
 
+## Official Source Targets
+
+Recipes combine services. Verify each selected service against its official
+pricing and docs before using the recipe in a final recommendation.
+
+| Common service | Source |
+|---|---|
+| Cloudflare Pages/Workers/R2/D1 | https://developers.cloudflare.com |
+| Vercel | https://vercel.com/docs |
+| Railway | https://docs.railway.com |
+| Render | https://docs.render.com |
+| Fly.io | https://fly.io/docs |
+| Supabase | https://supabase.com/docs |
+| Neon | https://neon.com/docs |
+| Upstash | https://upstash.com/docs |
+| Coolify | https://coolify.io/docs |
+| GitHub Actions | https://docs.github.com/actions |
+
+---
+
 ## How to Use This File
 
 Each recipe includes:

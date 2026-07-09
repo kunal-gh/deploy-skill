@@ -4,6 +4,19 @@
 
 ---
 
+## Official Source Targets
+
+| Topic | Source |
+|---|---|
+| AWS Well-Architected | https://docs.aws.amazon.com/wellarchitected |
+| Google Cloud Architecture Framework | https://cloud.google.com/architecture/framework |
+| Azure Well-Architected Framework | https://learn.microsoft.com/azure/well-architected |
+| Kubernetes workloads | https://kubernetes.io/docs/concepts/workloads |
+| CNCF landscape | https://landscape.cncf.io |
+| OpenTelemetry | https://opentelemetry.io/docs |
+
+---
+
 ## Overview: Choosing the Right Architecture
 
 The biggest deployment mistake in 2026: **premature architectural complexity.**

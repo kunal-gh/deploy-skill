@@ -4,6 +4,23 @@
 
 ---
 
+## Official Source Targets
+
+| Platform | Docs | Pricing / limits |
+|---|---|---|
+| Cloudflare Workers | https://developers.cloudflare.com/workers | https://developers.cloudflare.com/workers/platform/pricing |
+| Cloudflare Pages | https://developers.cloudflare.com/pages | https://developers.cloudflare.com/pages/platform/limits |
+| Deno Deploy | https://docs.deno.com/deploy | https://deno.com/deploy/pricing |
+| Vercel Edge Functions | https://vercel.com/docs/functions/runtimes/edge | https://vercel.com/pricing |
+| Netlify Edge Functions | https://docs.netlify.com/edge-functions/overview | https://www.netlify.com/pricing |
+| Fastly Compute | https://www.fastly.com/documentation/guides/compute | https://www.fastly.com/pricing |
+| AWS Lambda | https://docs.aws.amazon.com/lambda | https://aws.amazon.com/lambda/pricing |
+| Google Cloud Run | https://cloud.google.com/run/docs | https://cloud.google.com/run/pricing |
+| Azure Functions | https://learn.microsoft.com/azure/azure-functions | https://azure.microsoft.com/pricing/details/functions |
+| Bunny CDN | https://docs.bunny.net | https://bunny.net/pricing |
+
+---
+
 ## Overview
 
 Edge computing runs code physically close to users (inside CDN PoPs), reducing

@@ -5,6 +5,25 @@
 
 ---
 
+## Official Source Targets
+
+Use provider calculators and pricing pages before quoting exact totals:
+
+| Provider | Pricing source |
+|---|---|
+| AWS | https://calculator.aws |
+| Google Cloud | https://cloud.google.com/products/calculator |
+| Azure | https://azure.microsoft.com/pricing/calculator |
+| Vercel | https://vercel.com/pricing |
+| Cloudflare | https://www.cloudflare.com/plans |
+| Railway | https://railway.com/pricing |
+| Render | https://render.com/pricing |
+| Fly.io | https://fly.io/docs/about/pricing |
+| Supabase | https://supabase.com/pricing |
+| Neon | https://neon.com/pricing |
+
+---
+
 ## SECTION A: Complete Free Tier Summary
 
 ### Frontend / Static Hosting

@@ -1,7 +1,9 @@
 # Reference: Auto-Update & Pricing Freshness Protocol (2026)
 
 > Last research update: 2026-07-09
-> Mandatory instructions for checking live platform data.
+> Legacy freshness node. For the full workflow, also read:
+> `00_source_manifest.md`, `20_platform_inventory.md`, and
+> `21_research_and_refresh_workflow.md`.
 
 ---
 
@@ -16,14 +18,18 @@ To prevent giving users outdated information, you **MUST** follow this verificat
 
 ---
 
-## 2. Mandatory Search Queries
-Before outputting any recommendation that involves pricing, run a web search for each platform in your proposed stack.
+## 2. Mandatory Source Checks
+Before outputting any recommendation that involves pricing, limits, regions,
+runtime constraints, compliance, or SLA, check the official source targets in
+`00_source_manifest.md` for each platform in the proposed stack.
 
 ### Search Templates
-Use these exact search terms:
-1. `"[Platform Name] pricing changes 2026"`
-2. `"[Platform Name] free tier limits 2026"`
-3. `"[Platform Name] deprecation notices 2026"`
+When direct official pages are not already known, use these search terms:
+1. `"[Platform Name] official pricing"`
+2. `"[Platform Name] docs limits"`
+3. `"[Platform Name] changelog 2026"`
+4. `"[Platform Name] status"`
+5. `"[Platform Name] SOC 2 HIPAA SLA docs"` if compliance matters.
 
 ### Example Search Actions
 - If recommending Railway: `search_web(query="Railway pricing plans 2026 changes")`
@@ -33,9 +39,10 @@ Use these exact search terms:
 ---
 
 ## 3. Discrepancy Resolution Rules
-If the live web search results contradict any numbers listed in the reference files (`references/01_frontend_platforms.md` through `references/18_decision_tree.md`):
+If live official sources contradict any numbers listed in the reference files:
 
-1. **Use the Live Search Data:** The search result is the source of truth.
+1. **Use Official Live Data:** Official docs/pricing/changelog/status pages are the source of truth.
 2. **Explicitly State the Discrepancy:** Inform the user in your response:
    > *"Note: My reference database states [Old Pricing], but a live check confirms that as of [Current Date], [Platform] has changed this limit/price to [New Pricing]. I have adjusted my calculations accordingly."*
 3. **Log the Update:** Make a note of the outdated reference file so it can be updated in a future commit.
+4. **Add a Source Block:** When updating a reference, add `verified_at`, official source URLs, and evidence notes using the template in `00_source_manifest.md`.

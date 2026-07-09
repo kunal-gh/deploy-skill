@@ -5,6 +5,23 @@
 
 ---
 
+## Official Source Targets
+
+| Platform | Docs | Pricing / limits |
+|---|---|---|
+| Railway | https://docs.railway.com | https://railway.com/pricing |
+| Fly.io | https://fly.io/docs | https://fly.io/docs/about/pricing |
+| Render | https://docs.render.com | https://render.com/pricing |
+| Heroku | https://devcenter.heroku.com | https://www.heroku.com/pricing |
+| Northflank | https://northflank.com/docs | https://northflank.com/pricing |
+| Koyeb | https://www.koyeb.com/docs | https://www.koyeb.com/pricing |
+| Zerops | https://docs.zerops.io | https://zerops.io/pricing |
+| Sliplane | https://docs.sliplane.io | https://sliplane.io/pricing |
+| Qovery | https://hub.qovery.com/docs | https://www.qovery.com/pricing |
+| Bunnyshell | https://documentation.bunnyshell.com | https://www.bunnyshell.com/pricing |
+
+---
+
 ## Platform Categories
 
 1. **Managed PaaS** — Heroku-style, abstract away servers (Railway, Render, Koyeb, Heroku)

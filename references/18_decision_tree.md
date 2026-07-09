@@ -5,6 +5,22 @@
 
 ---
 
+## Official Source Targets
+
+This file encodes routing logic. Verify exact product claims using:
+
+| Scope | Source |
+|---|---|
+| Source manifest | https://github.com/kunal-gh/deploy-skill |
+| Cloudflare Workers limits | https://developers.cloudflare.com/workers/platform/limits |
+| Vercel functions limits | https://vercel.com/docs/functions/limitations |
+| Railway pricing | https://railway.com/pricing |
+| Render pricing | https://render.com/pricing |
+| Supabase pricing | https://supabase.com/pricing |
+| Neon pricing | https://neon.com/pricing |
+
+---
+
 ## 1. Step 1: Compute Engine Selector
 
 ```

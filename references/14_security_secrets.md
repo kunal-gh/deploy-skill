@@ -1,5 +1,8 @@
 # DevSecOps & Secrets Management — Research (July 2026)
 
+> Last research update: 2026-07-09
+> Always verify pricing, licensing, and incident claims at official docs.
+
 ## SECRETS MANAGEMENT TOOLS
 
 ### DOPPLER

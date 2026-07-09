@@ -5,6 +5,19 @@
 
 ---
 
+## Official Source Targets
+
+| Platform | Docs | Pricing / limits |
+|---|---|---|
+| Firebase | https://firebase.google.com/docs | https://firebase.google.com/pricing |
+| Expo EAS | https://docs.expo.dev/eas | https://expo.dev/pricing |
+| OneSignal | https://documentation.onesignal.com | https://onesignal.com/pricing |
+| RevenueCat | https://www.revenuecat.com/docs | https://www.revenuecat.com/pricing |
+| Apple Push Notification service | https://developer.apple.com/documentation/usernotifications | https://developer.apple.com/programs |
+| Firebase Cloud Messaging | https://firebase.google.com/docs/cloud-messaging | https://firebase.google.com/pricing |
+
+---
+
 ## 1. Firebase (Mobile Focus)
 
 **Category:** Managed Mobile-first BaaS (Google Cloud ecosystem)  

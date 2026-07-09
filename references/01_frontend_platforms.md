@@ -5,6 +5,21 @@
 
 ---
 
+## Official Source Targets
+
+| Platform | Docs | Pricing / limits |
+|---|---|---|
+| Vercel | https://vercel.com/docs | https://vercel.com/pricing |
+| Netlify | https://docs.netlify.com | https://www.netlify.com/pricing |
+| Cloudflare Pages | https://developers.cloudflare.com/pages | https://developers.cloudflare.com/pages/platform/limits |
+| Firebase Hosting | https://firebase.google.com/docs/hosting | https://firebase.google.com/pricing |
+| AWS Amplify | https://docs.aws.amazon.com/amplify | https://aws.amazon.com/amplify/pricing |
+| Azure Static Web Apps | https://learn.microsoft.com/azure/static-web-apps | https://azure.microsoft.com/pricing/details/app-service/static |
+| GitHub Pages | https://docs.github.com/pages | https://docs.github.com/pages/getting-started-with-github-pages/about-github-pages |
+| Tiiny Host | https://tiiny.host/help | https://tiiny.host/pricing |
+
+---
+
 ## Platform Landscape Overview
 
 Frontend hosting splits into three tiers:

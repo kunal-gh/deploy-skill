@@ -5,6 +5,21 @@
 
 ---
 
+## Official Source Targets
+
+| Provider | Docs | Pricing calculator / status |
+|---|---|---|
+| AWS | https://docs.aws.amazon.com | https://calculator.aws |
+| Google Cloud | https://cloud.google.com/docs | https://cloud.google.com/products/calculator |
+| Azure | https://learn.microsoft.com/azure | https://azure.microsoft.com/pricing/calculator |
+| DigitalOcean | https://docs.digitalocean.com | https://www.digitalocean.com/pricing |
+| Hetzner Cloud | https://docs.hetzner.com/cloud | https://www.hetzner.com/cloud |
+| Vultr | https://docs.vultr.com | https://www.vultr.com/pricing |
+| Akamai/Linode | https://techdocs.akamai.com/cloud-computing | https://www.linode.com/pricing |
+| Oracle Cloud | https://docs.oracle.com/en-us/iaas | https://www.oracle.com/cloud/free |
+
+---
+
 ## Overview: Hyperscalers vs Developer-Friendly Clouds
 
 | Category | Providers | Audience |

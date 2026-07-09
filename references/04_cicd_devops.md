@@ -4,6 +4,21 @@
 
 ---
 
+## Official Source Targets
+
+| Tool | Docs | Pricing / releases |
+|---|---|---|
+| GitHub Actions | https://docs.github.com/actions | https://github.com/pricing |
+| GitLab CI/CD | https://docs.gitlab.com/ci | https://about.gitlab.com/pricing |
+| CircleCI | https://circleci.com/docs | https://circleci.com/pricing |
+| Woodpecker CI | https://woodpecker-ci.org/docs | https://github.com/woodpecker-ci/woodpecker/releases |
+| Argo CD | https://argo-cd.readthedocs.io | https://github.com/argoproj/argo-cd/releases |
+| Flux CD | https://fluxcd.io/flux | https://github.com/fluxcd/flux2/releases |
+| OpenTofu | https://opentofu.org/docs | https://github.com/opentofu/opentofu/releases |
+| Pulumi | https://www.pulumi.com/docs | https://www.pulumi.com/pricing |
+
+---
+
 ## Overview
 
 The CI/CD landscape in 2026 has consolidated around a few key tools:

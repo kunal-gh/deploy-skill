@@ -1,5 +1,23 @@
 # Real-Time, WebSocket & Collaborative Infrastructure + Networking — Research (July 2026)
 
+> Last research update: 2026-07-09
+> Always verify pricing and limits at official docs.
+
+## Official Source Targets
+
+| Platform | Docs | Pricing / limits |
+|---|---|---|
+| Ably | https://ably.com/docs | https://ably.com/pricing |
+| Pusher Channels | https://pusher.com/docs/channels | https://pusher.com/channels/pricing |
+| Liveblocks | https://liveblocks.io/docs | https://liveblocks.io/pricing |
+| PartyKit | https://docs.partykit.io | https://developers.cloudflare.com/durable-objects/platform/pricing |
+| Cloudflare Durable Objects | https://developers.cloudflare.com/durable-objects | https://developers.cloudflare.com/durable-objects/platform/pricing |
+| Upstash QStash/Kafka | https://upstash.com/docs | https://upstash.com/pricing |
+| LiveKit | https://docs.livekit.io | https://livekit.io/pricing |
+| NATS | https://docs.nats.io | https://github.com/nats-io/nats-server/releases |
+| RabbitMQ | https://www.rabbitmq.com/docs | https://github.com/rabbitmq/rabbitmq-server/releases |
+| Apache Kafka | https://kafka.apache.org/documentation | https://kafka.apache.org/downloads |
+
 ## ABLY
 
 ### Free Tier
